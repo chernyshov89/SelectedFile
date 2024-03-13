@@ -5,9 +5,6 @@ function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [htmlText, setHtmlText] = useState(null);
 
-  console.log(selectedFile);
-  console.log(htmlText);
-
   useEffect(() => {
     async function readText() {
       if (selectedFile) {
