@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <p className="app">HELLO</p>
+      <p className="text-blue-500 underline">HELLO</p>
       <input
         type="file"
         onChange={(e) => {
